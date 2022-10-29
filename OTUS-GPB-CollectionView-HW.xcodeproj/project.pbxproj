@@ -13,6 +13,8 @@
 		1F7838A8290CF5450092CFE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7838A6290CF5450092CFE0 /* Main.storyboard */; };
 		1F7838AA290CF5460092CFE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F7838A9290CF5460092CFE0 /* Assets.xcassets */; };
 		1F7838AD290CF5460092CFE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7838AB290CF5460092CFE0 /* LaunchScreen.storyboard */; };
+		1F7838B5290D16040092CFE0 /* Task in Resources */ = {isa = PBXBuildFile; fileRef = 1F7838B4290D16040092CFE0 /* Task */; };
+		1F7838B7290D1B9F0092CFE0 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7838B6290D1B9F0092CFE0 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1F7838A9290CF5460092CFE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F7838AC290CF5460092CFE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F7838AE290CF5460092CFE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F7838B4290D16040092CFE0 /* Task */ = {isa = PBXFileReference; lastKnownFileType = text; path = Task; sourceTree = "<group>"; };
+		1F7838B6290D1B9F0092CFE0 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		1F783894290CF5450092CFE0 = {
 			isa = PBXGroup;
 			children = (
+				1F7838B4290D16040092CFE0 /* Task */,
 				1F78389F290CF5450092CFE0 /* OTUS-GPB-CollectionView-HW */,
 				1F78389E290CF5450092CFE0 /* Products */,
 			);
@@ -63,6 +68,7 @@
 				1F7838A9290CF5460092CFE0 /* Assets.xcassets */,
 				1F7838AB290CF5460092CFE0 /* LaunchScreen.storyboard */,
 				1F7838AE290CF5460092CFE0 /* Info.plist */,
+				1F7838B6290D1B9F0092CFE0 /* CollectionViewCell.swift */,
 			);
 			path = "OTUS-GPB-CollectionView-HW";
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 				1F7838AD290CF5460092CFE0 /* LaunchScreen.storyboard in Resources */,
 				1F7838AA290CF5460092CFE0 /* Assets.xcassets in Resources */,
 				1F7838A8290CF5450092CFE0 /* Main.storyboard in Resources */,
+				1F7838B5290D16040092CFE0 /* Task in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +147,7 @@
 			files = (
 				1F7838A5290CF5450092CFE0 /* ViewController.swift in Sources */,
 				1F7838A1290CF5450092CFE0 /* AppDelegate.swift in Sources */,
+				1F7838B7290D1B9F0092CFE0 /* CollectionViewCell.swift in Sources */,
 				1F7838A3290CF5450092CFE0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
