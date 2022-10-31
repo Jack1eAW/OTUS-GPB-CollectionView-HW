@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F036750290FB5FC00E8E6EB /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F03674F290FB5FC00E8E6EB /* Helper.swift */; };
 		1F7838A1290CF5450092CFE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7838A0290CF5450092CFE0 /* AppDelegate.swift */; };
 		1F7838A3290CF5450092CFE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7838A2290CF5450092CFE0 /* SceneDelegate.swift */; };
 		1F7838A5290CF5450092CFE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7838A4290CF5450092CFE0 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F03674F290FB5FC00E8E6EB /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		1F78389D290CF5450092CFE0 /* OTUS-GPB-CollectionView-HW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OTUS-GPB-CollectionView-HW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F7838A0290CF5450092CFE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F7838A2290CF5450092CFE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F036751290FB6D300E8E6EB /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1F7838A0290CF5450092CFE0 /* AppDelegate.swift */,
+				1F7838A2290CF5450092CFE0 /* SceneDelegate.swift */,
+				1F7838A6290CF5450092CFE0 /* Main.storyboard */,
+				1F7838A9290CF5460092CFE0 /* Assets.xcassets */,
+				1F7838AB290CF5460092CFE0 /* LaunchScreen.storyboard */,
+				1F7838AE290CF5460092CFE0 /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1F036752290FB73500E8E6EB /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1F7838A4290CF5450092CFE0 /* ViewController.swift */,
+				1F7838B6290D1B9F0092CFE0 /* CollectionViewCell.swift */,
+				1F03674F290FB5FC00E8E6EB /* Helper.swift */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
 		1F783894290CF5450092CFE0 = {
 			isa = PBXGroup;
 			children = (
@@ -61,14 +86,8 @@
 		1F78389F290CF5450092CFE0 /* OTUS-GPB-CollectionView-HW */ = {
 			isa = PBXGroup;
 			children = (
-				1F7838A0290CF5450092CFE0 /* AppDelegate.swift */,
-				1F7838A2290CF5450092CFE0 /* SceneDelegate.swift */,
-				1F7838A4290CF5450092CFE0 /* ViewController.swift */,
-				1F7838A6290CF5450092CFE0 /* Main.storyboard */,
-				1F7838A9290CF5460092CFE0 /* Assets.xcassets */,
-				1F7838AB290CF5460092CFE0 /* LaunchScreen.storyboard */,
-				1F7838AE290CF5460092CFE0 /* Info.plist */,
-				1F7838B6290D1B9F0092CFE0 /* CollectionViewCell.swift */,
+				1F036751290FB6D300E8E6EB /* Application */,
+				1F036752290FB73500E8E6EB /* MainViewController */,
 			);
 			path = "OTUS-GPB-CollectionView-HW";
 			sourceTree = "<group>";
@@ -147,6 +166,7 @@
 			files = (
 				1F7838A5290CF5450092CFE0 /* ViewController.swift in Sources */,
 				1F7838A1290CF5450092CFE0 /* AppDelegate.swift in Sources */,
+				1F036750290FB5FC00E8E6EB /* Helper.swift in Sources */,
 				1F7838B7290D1B9F0092CFE0 /* CollectionViewCell.swift in Sources */,
 				1F7838A3290CF5450092CFE0 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,7 +317,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3335BGVMD7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "OTUS-GPB-CollectionView-HW/Info.plist";
+				INFOPLIST_FILE = "OTUS-GPB-CollectionView-HW/Application/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -325,7 +345,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3335BGVMD7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "OTUS-GPB-CollectionView-HW/Info.plist";
+				INFOPLIST_FILE = "OTUS-GPB-CollectionView-HW/Application/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

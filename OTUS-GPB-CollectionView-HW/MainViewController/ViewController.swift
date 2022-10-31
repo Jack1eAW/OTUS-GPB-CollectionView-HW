@@ -8,9 +8,8 @@
 import UIKit
 
 
-class ViewController: UIViewController, UICollectionViewDelegate {
+class ViewController: Helper {
 
-    
     private let collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout())
     
     override func viewDidLoad() {
@@ -20,23 +19,10 @@ class ViewController: UIViewController, UICollectionViewDelegate {
         collectionView.dataSource = self
         view.addSubview(collectionView)
     }
-    
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         collectionView.frame = view.bounds
     }
-}
-
-extension ViewController: UICollectionViewDataSource {
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 50
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CollectionViewCell.identifier, for: indexPath)
-        return cell
-    }
-    
 }
 
 extension ViewController: UICollectionViewDelegateFlowLayout {
